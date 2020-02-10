@@ -1,5 +1,5 @@
 from flask import render_template
-from AppFlask import app
+from FlaskEstudies import app
 
 @app.route("/index/<user>")
 @app.route("/", defaults={"user":None})
