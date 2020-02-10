@@ -12,5 +12,5 @@ migrate = Migrate(app, db)
 manager = Manager(app)
 manager.add_command('db', MigrateCommand)
 
-from AppFlask.controllers import default
+from FlaskEstudies.controllers import default
 
